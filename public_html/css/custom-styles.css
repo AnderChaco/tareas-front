@@ -1,0 +1,28 @@
+/* Estilos personalizados para tareas completadas */
+.tarea-completada {
+    text-decoration: line-through !important;
+    color: #6c757d !important;
+    opacity: 0.7;
+}
+
+.tarea-completada .form-check-label {
+    text-decoration: line-through !important;
+    color: #6c757d !important;
+}
+
+/* Efecto visual mejorado para tareas completadas */
+.list-group-item.tarea-completada {
+    background-color: #f8f9fa;
+    border-left: 4px solid #28a745;
+}
+
+/* Animación suave para el cambio de estado */
+.form-check-label {
+    transition: all 0.3s ease;
+}
+
+/* Destacar el checkbox cuando está marcado */
+.form-check-input:checked {
+    background-color: #28a745;
+    border-color: #28a745;
+}
